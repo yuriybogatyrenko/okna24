@@ -1,0 +1,73 @@
+#header {
+	color: #FFF;
+	1padding: 3.2em 0 0 3em;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	1height: 169px;
+	background-color: #28324b;
+	1background-color: #1066a2;
+	margin-bottom: 3.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 50px;
+	zoom: 1;
+	z-index: 1;
+}
+
+	#header .bg {
+		position: absolute;
+		width: 100%;
+		height: 169px;
+		top: 100%;
+		margin-top: -116px;
+		1margin-top: -7.3em;
+		left: 0;
+		z-index: 10;
+	}
+
+	#header .bgMain {
+		background: url( '/images/site/header/bg-sides.jpg' ) repeat-x center bottom;
+	}
+	#header .bg.bgWave {
+		background: url( '/images/site/header/bg-center.jpg' ) no-repeat right center;
+	}
+	#header .bg.bgStars {
+		background: url( '/images/site/header/bg-stars.png' ) repeat-x center top;
+		-background: url( '/images/site/header/bg-stars.gif' ) repeat-x center top;
+		-background: none;
+	}
+
+	#header .tableWrapper {
+		padding: 3.2em 0 0 3em;
+
+	}
+
+#bodyAdminPanel #header {
+	background-color: #000;
+}
+
+#bodyMainpage #header {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+	#header #logoCell {
+	}
+
+		#header #logoCell #siteLogo {
+			position: relative;
+			z-index: 999;
+			width:173px;
+			height: 57px;
+			background: url( '/images/site/logo.png' ) no-repeat;
+			-background: none;
+			-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='/images/site/logo.png' );
+		}
+
+	#header .spacerCell {
+		width: 6%;
+	}
+
+
+
+
